@@ -1,0 +1,3 @@
+MTA module allows us to set either sendmail or postfix for the MTA.  mta::application will take a value of either sendmail or postfix, defaulting to sendmail.  
+
+remove_sendmail ensures sendmail dependencies are removed so that jlambert_posfix module can remove sendmail.  
